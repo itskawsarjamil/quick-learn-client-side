@@ -26,7 +26,7 @@ const Blog = () => {
                 <Accordion.Item eventKey="3">
                     <Accordion.Header className='acrdn-hdr'><h5>What is Node? How does Node work?</h5></Accordion.Header>
                     <Accordion.Body>
-                    The useRef Hook allows you to persist values between renders. It can be used to store a mutable value that does not cause a re-render when updated. It can be used to access a DOM element directly.
+                    It is a used as backend service where javascript works on the server-side of the application. This way javascript is used on both frontend and backend. Node. js runs on chrome v8 engine which converts javascript code into machine code, it is highly scalable, lightweight, fast, and data-intensive.
                     </Accordion.Body>
                 </Accordion.Item>
             </Accordion>
