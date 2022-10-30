@@ -31,7 +31,7 @@ const Course = () => {
                         {details}
                     </Card.Text>
                     <Link to={`/checkout/${_id}`} className='text-center'>
-                        <Button variant="warning">Premium Access</Button>
+                        <Button variant="warning">Get premium access</Button>
                     </Link>
                 </Card.Body>
             </Card>
