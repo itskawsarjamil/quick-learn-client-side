@@ -1,0 +1,19 @@
+.with-all{
+    
+    padding: 2em;
+    background-color: rgb(100, 155, 155);
+    border: 2px solid rgb(250, 220, 220);
+    border-radius: 20px;
+}
+
+.without-all{
+    background-color: rgba(122, 86, 155, 0.473);
+    padding: 2em;
+    border-radius: 20px;
+}
+.name{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: large;
+    font-weight: bold;
+}
