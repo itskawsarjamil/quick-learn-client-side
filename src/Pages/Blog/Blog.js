@@ -8,7 +8,7 @@ const Blog = () => {
                 <Accordion.Item eventKey="0">
                     <Accordion.Header className='acrdn-hdr'><h5>what is cors?</h5></Accordion.Header>
                     <Accordion.Body>
-                    ReactJS Router is mainly used for developing Single Page Web Applications. React Router is used to define multiple routes in the application. When a user types a specific URL into the browser, and if this URL path matches any 'route' inside the router file, the user will be redirected to that particular route.
+                    Cross-origin resource sharing is a mechanism that allows restricted resources on a web page to be requested from another domain outside the domain from which the first resource was served. A web page may freely embed cross-origin images, stylesheets, scripts, iframes, and videos. 
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="1">
