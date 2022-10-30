@@ -14,7 +14,7 @@ const Blog = () => {
                 <Accordion.Item eventKey="1">
                     <Accordion.Header className='acrdn-hdr'><h5>Why are you using firebase? What other options do you have to implement authentication?</h5></Accordion.Header>
                     <Accordion.Body>
-                    The React Context API is a way for a React app to effectively produce global variables that can be passed around. This is the alternative to "prop drilling" or moving props from grandparent to child to parent, and so on. Context is also touted as an easier, lighter approach to state management using Redux.
+                    Firebase Authentication provides backend services, easy-to-use SDKs, and ready-made UI libraries to authenticate users to your app. It supports authentication using passwords, phone numbers, popular federated identity providers like Google, Facebook and Twitter, and more.
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="2">
