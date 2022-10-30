@@ -4,7 +4,7 @@ A learning site where we can learn various thing in quick with fun.
 
 
 ## Live Site
-The Live site is [Here]().
+The Live site is [Here](https://quick-learn-35746.web.app).
 
 ### Feature
 * Login
@@ -15,7 +15,7 @@ The Live site is [Here]().
 
 ### Functionality
 * Email Verification
-* userinfo update
+* Can change userInfo like name photo
 * private router configuration
 * live server
 
