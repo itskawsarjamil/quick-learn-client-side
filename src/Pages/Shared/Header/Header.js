@@ -35,13 +35,13 @@ const Header = () => {
                         <NavLink to='/blog' className='text-deco'>BLOG</NavLink>
                     </Nav>
                     <div className='d-flex'>
-                        <label class="form-check-label me-2" for="flexSwitchCheckDefault"><FaSun></FaSun></label>
+                        <label className="form-check-label me-2" htmlFor="flexSwitchCheckDefault"><FaSun></FaSun></label>
 
-                        <div class="form-check form-switch">
-                            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
+                        <div className="form-check form-switch">
+                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
                         </div>
 
-                        <label class="form-check-label"  className='me-2' for="flexSwitchCheckDefault"><FaMoon></FaMoon></label>
+                        <label className="form-check-label me-2"  htmlFor="flexSwitchCheckDefault"><FaMoon></FaMoon></label>
                     </div>
                     <div>
                         <Nav className='d-flex'>

@@ -57,14 +57,14 @@ const Register = () => {
     }
 
     return (
-        <Form onSubmit={handleSubmit}>
+        <Form onSubmit={handleSubmit}  className='w-50 mx-auto my-5 border rounded border-2 p-4 shadow bg-dark bg-opacity-10 '>
             <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Label>Your Name</Form.Label>
                 <Form.Control name="name" type="text" placeholder="Your Name" />
             </Form.Group>
             <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Label>Photo URL</Form.Label>
-                <Form.Control name="photoURL" type="text" placeholder="Phot URL" />
+                <Form.Control name="photoURL" type="text" placeholder="Photo URL" />
             </Form.Group>
 
             <Form.Group className="mb-3" controlId="formBasicEmail">

@@ -5,6 +5,7 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
 const Checkout = () => {
+    
     const course = useLoaderData();
     const { title ,_id } = course;
     return (

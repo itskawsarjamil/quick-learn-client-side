@@ -12,6 +12,7 @@ import PrivateRoute from "../PrivateRoute/PrivateRoute";
 import Courses from "../../Pages/All/Courses";
 import Course from "../../Pages/Course/Course";
 import Checkout from "../../Pages/Checkout/Checkout";
+import Fourofour from "../../Pages/404/Fourofour";
 
 export const routes = createBrowserRouter([
     {
@@ -68,5 +69,9 @@ export const routes = createBrowserRouter([
                 element: <PrivateRoute><Profile></Profile></PrivateRoute>
             }
         ]
+    },
+    {
+        path: '*',
+        element: <Fourofour></Fourofour>,
     }
 ])
