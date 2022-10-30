@@ -20,7 +20,7 @@ const Blog = () => {
                 <Accordion.Item eventKey="2">
                     <Accordion.Header className='acrdn-hdr'><h5>How does the private route work?</h5></Accordion.Header>
                     <Accordion.Body>
-                    The useRef Hook allows you to persist values between renders. It can be used to store a mutable value that does not cause a re-render when updated. It can be used to access a DOM element directly.
+                    The private route component is similar to the public route, the only change is that redirect URL and authenticate condition. If the user is not authenticated he will be redirected to the login page and the user can only access the authenticated routes If he is authenticated (Logged in).
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="3">
