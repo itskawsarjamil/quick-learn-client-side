@@ -3,10 +3,11 @@ import { useLoaderData } from 'react-router-dom';
 import { Col, Container, Row } from 'react-bootstrap';
 import LeftSideNav from '../Shared/LeftSideNav/LeftSideNav';
 import CourseSummaryCard from '../Shared/CourseSummaryCard/CourseSummaryCard';
+import useTitle from '../../hooks/useTitle';
 
 
 const Courses = () => {
-
+    useTitle("All Courses")
     const allcourse = useLoaderData();
 
 

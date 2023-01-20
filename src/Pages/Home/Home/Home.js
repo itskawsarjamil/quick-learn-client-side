@@ -3,9 +3,10 @@ import { Container } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
 import './Home.css';
 import ebanner from '../../../assets/brands/banner/e-banner.jpg';
+import useTitle from '../../../hooks/useTitle';
 
 const Home = () => {
-
+    useTitle('Home');
     return (
         <div>
             <div className='about'>

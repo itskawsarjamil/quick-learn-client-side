@@ -3,8 +3,10 @@ import { useLoaderData } from 'react-router-dom';
 import CourseSummaryCard from '../../Shared/CourseSummaryCard/CourseSummaryCard';
 import { Col, Container, Row } from 'react-bootstrap';
 import LeftSideNav from '../../Shared/LeftSideNav/LeftSideNav';
+import useTitle from '../../../hooks/useTitle';
 
 const Category = () => {
+    useTitle("Category");
     const categorycourse = useLoaderData();
     return (
         <Container>
